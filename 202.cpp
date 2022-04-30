@@ -11,7 +11,6 @@ int main()
     string S, T;
     in >> S >> T;
     int start = 0;
-    int count = 0;
     int pos = 0;
     for (;;) {
         pos = S.find(T.c_str(), start);
